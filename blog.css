@@ -70,6 +70,7 @@ iframe {
     height: 40px;
     font-size: 13px;
     background-color: rgb(13, 13, 53);
+    z-index: 200;
 
 }
 ul li {
@@ -102,9 +103,11 @@ li a {
     font-size: 18px;
     color: var(--dark);
     margin-bottom: 15px;
+    
 }
 .nav-body ul li {
     margin: 5px;
+    
 }
 .fa-home {
     margin: 2px;
@@ -143,28 +146,37 @@ h2 {
     color: var(--dark-light);
     font-weight: bolder;
 }
+.blog-content{
+    box-shadow: 0 0 15px 0 rgba(0, 0, 0, 0.25);
+    z-index: 1;
+}
 .home-content {
     font-family: 'STIX Two Text', serif;
     font-size: 18px;
     font-weight: bold;
 }
 .home-img {
-    height: 40vh;
-    width: 50%;
+    height: 50vh;
+    width: 100%;
     margin-bottom: 20px;
 }
+
 .nav-item{
     border-right: solid 1px white !important;
     
 }
 .user{
     border-left: 2px solid rgba(0, 0, 0, 0.25);
+    box-shadow: 0px 2px 3px 2px rgba(0, 0, 0, 0.25);
+    padding-left: 50px;
+    padding-right: 50px;
+    z-index: -1;
     
 }
 .user-img {
     border-radius: 50%;
     box-shadow: 2px 2px 15px 2px rgba(0, 0, 0, 0.25);
-    height: 25vh;
+    height: 30vh;
     width: 100%;
     margin-bottom: 20px;
 } 
@@ -183,17 +195,15 @@ h4 {
     font-weight: bold;
     color: var(--gray-dark);
 }
-.fashion-text{
-    bottom: 70px;
-}
+
 .img-fash{
     box-shadow: 2px 2px 15px 2px rgba(0, 0, 0, 0.25);
     
 }
 
-.fashion-img{
+.fas-img{
     box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.25);
-    height: 20%;
+    height: 40vh;
     padding: 10px;
 }
 .about-header{
@@ -201,15 +211,14 @@ h4 {
     font-size:35px ;
 }
 .about-content{
-    color: var(--gray-dark);
-    text-align: center;
-    padding-top:70px ;
+    color: var(--white-light);
+    font-size: 18px;
     font-family: 'STIX Two Text', serif;
 
 
 }
 svg.angle {
-    margin-bottom: 50px;
+    
     background-color: rgb(13, 13, 53);
     top: 10px;
     width: 100%;
@@ -219,6 +228,17 @@ svg.angle {
 }
 svg.angle.small {
     display: block;
+}
+#aboutContent{
+    position: absolute;
+    top:50%;
+    left: 5%;
+    padding: 20px;
+}
+#aboutHead{
+    position: absolute;
+    top: 20%;
+    left:35%;
 }
 .date{
     
@@ -238,12 +258,8 @@ svg.angle.small {
     font-family: 'STIX Two Text', serif;
 
 }
-.about-content{
-    color: var(--white-light);
-    font-size:18px ;
-}
+
 .about-icons a{
-    bottom:50px;
     font-size: 20px;
     box-shadow: 0px 1px 15px 1px rgba(0, 0, 0, 0.25);
     color: var(--primary);
@@ -251,6 +267,11 @@ svg.angle.small {
 }
 .about-icons a:hover i{
     color: var(--white-light);
+}
+.about-icons{
+    position: absolute;
+    top:95%;
+    left: 40%;
 }
 .contact-header{
     color: rgb(13, 13, 53);
