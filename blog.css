@@ -1,0 +1,277 @@
+@import url('https://fonts.googleapis.com/css2?family=STIX+Two+Text&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=STIX+Two+Text&family=Satisfy&display=swap');
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+    :root {
+    --blue: #007bff;
+    --indigo: #6610f2;
+    --purple: #6f42c1;
+    --pink: #e83e8c;
+    --red: #dc3545;
+    --orange: #fd7e14;
+    --yellow: #ffc107;
+    --green: #28a745;
+    --teal: #20c997;
+    --cyan: #17a2b8;
+    --white: #fff;
+    --gray: #6c757d;
+    --gray-dark: #343a40;
+    --primary: #007bff;
+    --secondary: #6c757d;
+    --success: #28a745;
+    --info: #17a2b8;
+    --warning: #ffc107;
+    --danger: #dc3545;
+    --light: #f8f9fa;
+    --dark: #343a40;
+    --breakpoint-xs: 0;
+    --breakpoint-sm: 576px;
+    --breakpoint-md: 768px;
+    --breakpoint-lg: 992px;
+    --breakpoint-xl: 1200px;
+    --font-family-sans-serif: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+    --font-family-monospace: SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
+}
+
+body {
+    color: #f8f9fa;
+}
+
+.header {
+    font-weight: bolder;
+    color: darkblue;
+    font-family: 'STIX Two Text', serif;
+    text-transform: capitalize;
+    padding: 35px;
+}
+
+video,
+iframe {
+    /* float: right; */
+    width: 100% !important;
+    height: auto !important;
+}
+    
+.nav-tabs{
+   background-color: rgb(13, 13, 53);
+
+} 
+.nav-header {
+    text-transform: capitalize;
+    display: flex;
+    justify-content: space-between;
+    padding-left: 40px;
+    box-sizing: border-box;
+    box-shadow: 0px 0px 3px 0px rgba(0, 0, 0, 0.2);
+    height: 40px;
+    font-size: 13px;
+    background-color: rgb(13, 13, 53);
+
+}
+ul li {
+    display: inline-block;
+    justify-content: space-between;
+    padding-left: 35px;
+    padding: 10px;
+    text-transform: capitalize;
+}
+.nav-header li:nth-child(1) {
+    line-height: 5px;
+    text-decoration: underline 1.5px rgba(218, 211, 211, 0.9);
+}
+li a {
+    color: var(--white);
+}
+#icon {
+    padding-top: 30px;
+    text-align-last: bottom;
+    
+   
+}
+#icons a {
+    padding: 10px;
+    font-size: 18px;
+    color: var(--white);
+    text-decoration: none;
+}
+.nav-body {
+    font-size: 18px;
+    color: var(--dark);
+    margin-bottom: 15px;
+}
+.nav-body ul li {
+    margin: 5px;
+}
+.fa-home {
+    margin: 2px;
+    padding: 5px;
+    height: 25px;
+    width: 30px;
+    text-align: center;
+}
+.fa-money {
+    margin: 2px;
+    color: var(--white);
+    padding: 5px;
+    height: 30px;
+    width: 30px;
+    text-align: center;
+}
+.home-text {
+    color: var(--gray);
+}
+ :root {
+    --main-color: #eaa023;
+    --dark: #0c1023;
+    --dark-light: #191f3a;
+    --white: #ffffff;
+    --white-light: #c8c8c8;
+    --shadow: 0 0 15px rgba(0, 0, 0, 0.25);
+}
+h3 {
+    font-size: 15px;
+    font-weight: bold;
+    color: var(--gray);
+    opacity: 0.5;
+}
+h2 {
+    font-size: 20px;
+    color: var(--dark-light);
+    font-weight: bolder;
+}
+.home-content {
+    font-family: 'STIX Two Text', serif;
+    font-size: 18px;
+    font-weight: bold;
+}
+.home-img {
+    height: 40vh;
+    width: 50%;
+    margin-bottom: 20px;
+}
+.nav-item{
+    border-right: solid 1px white !important;
+    
+}
+.user{
+    border-left: 2px solid rgba(0, 0, 0, 0.25);
+    
+}
+.user-img {
+    border-radius: 50%;
+    box-shadow: 2px 2px 15px 2px rgba(0, 0, 0, 0.25);
+    height: 25vh;
+    width: 100%;
+    margin-bottom: 20px;
+} 
+.user-content {
+    font-family: 'STIX Two Text', serif;
+    font-weight: bold;
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+#user-icons {
+    color: var(--dark-light);
+    padding: 2px;
+}
+h4 {
+    font-size: 18px;
+    font-weight: bold;
+    color: var(--gray-dark);
+}
+.fashion-text{
+    bottom: 70px;
+}
+.img-fash{
+    box-shadow: 2px 2px 15px 2px rgba(0, 0, 0, 0.25);
+    
+}
+
+.fashion-img{
+    box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.25);
+    height: 20%;
+    padding: 10px;
+}
+.about-header{
+    color: var(--dark);
+    font-size:35px ;
+}
+.about-content{
+    color: var(--gray-dark);
+    text-align: center;
+    padding-top:70px ;
+    font-family: 'STIX Two Text', serif;
+
+
+}
+svg.angle {
+    margin-bottom: 50px;
+    background-color: rgb(13, 13, 53);
+    top: 10px;
+    width: 100%;
+    height: 100vh;
+    left: 0;
+    z-index: 1;
+}
+svg.angle.small {
+    display: block;
+}
+.date{
+    
+    box-shadow: 8px 8px 16px 8px rgba(0, 0, 0, 0.25);
+
+}
+#about{
+    
+    color: var(--white-light);
+    transform: translate(10% ,-180% );
+}
+.about-heading {
+    transform: translate(0%,-1400%);
+    font-size: 40px;
+    font-weight: bolder;
+    color:black;
+    font-family: 'STIX Two Text', serif;
+
+}
+.about-content{
+    color: var(--white-light);
+    font-size:18px ;
+}
+.about-icons a{
+    bottom:50px;
+    font-size: 20px;
+    box-shadow: 0px 1px 15px 1px rgba(0, 0, 0, 0.25);
+    color: var(--primary);
+    padding: 10px;
+}
+.about-icons a:hover i{
+    color: var(--white-light);
+}
+.contact-header{
+    color: rgb(13, 13, 53);
+    font-family: 'STIX Two Text', serif;
+    font-size: 40px;
+    font-weight: bold;
+}
+textarea ,
+#button,
+.form-group{
+    box-shadow: 0px 1px 5px 1px rgba(0, 0, 0, 0.25);
+    font-weight: 600;
+
+}
+.contact{
+    margin-bottom: 5px;
+}
+footer{
+    text-transform: capitalize;
+    padding: 20px;
+    height: 30vh;
+    background-color: rgb(13, 13, 53);
+
+}
